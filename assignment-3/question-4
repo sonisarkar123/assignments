@@ -1,0 +1,10 @@
+def almost_there(n):
+    p = abs(n-100)
+    q = abs(n-200)
+
+    if p >= 0 and p <= 10 or q >= 0 and q <= 10:
+        print("true")
+    else:
+        print("false")
+n1 = int(input("enter a number : "))
+almost_there(n1)
