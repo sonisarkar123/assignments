@@ -1,0 +1,4 @@
+str=input("enter the string:")
+w=str.split()
+w=list(reversed(w))
+print(" ".join(w))
